@@ -6,7 +6,6 @@ export default {
             fontFamily: {},
             colors: {},
         },
-        fluidTypography: {},
     },
     // eslint-disable-next-line no-undef
     plugins: {},
