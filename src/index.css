@@ -3,11 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+@layer base {
     * {
         @apply m-0 p-0 box-border;
     }
     body {
         @apply font-publicSans;
+    }
+}
+
+@layer components {
+    .navLink {
+        @apply relative cursor-pointer h-full flex items-center hover:text-darkBlue before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0 before:bg-gradient-to-r before:from-green before:to-cyan hover:before:h-1 before:transition-all before:duration-200;
     }
 }
