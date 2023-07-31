@@ -15,7 +15,7 @@ const Header = () => {
     });
 
     return (
-        <header className="h-20" ref={clickOutsideRef}>
+        <header className="h-20 bg-white relative z-50" ref={clickOutsideRef}>
             <Container className="flex justify-between items-center m-0 px-10 h-full w-full max-w-none">
                 <img src={companyLogo} alt="company logo" />
                 <Group className="hidden sm:block h-full">
@@ -28,7 +28,7 @@ const Header = () => {
                     </ul>
                 </Group>
 
-                <Button className="hidden md:block bg-gradient-to-r from-green to-cyan rounded-full hover:opacity-60 transition-opacity">
+                <Button className="hidden md:block gradientButton opacityHover">
                     Request Invite
                 </Button>
 
@@ -37,7 +37,8 @@ const Header = () => {
                 <Transition transition="pop-top-right" duration={200} mounted={opened}>
                     {(styles) => (
                         <Paper
-                            className="absolute top-24 left-0 right-0 z-0 w-[95%] mx-auto py-5 rounded overflow-hidden sm:hidden"
+                            withBorder
+                            className="absolute top-[5.5rem] left-0 right-0 z-0 w-[95%] mx-auto py-5 rounded overflow-hidden sm:hidden"
                             shadow="md"
                             style={styles}
                         >
