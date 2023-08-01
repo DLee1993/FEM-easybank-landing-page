@@ -15,6 +15,10 @@ export default {
                 green: "hsl(136, 65%, 51%)",
                 darkBlue: "hsl(233, 26%, 24%)",
             },
+            backgroundImage: {
+                'introMobile': "url('./src/assets/images/bg-intro-mobile.svg')",
+                'introDesktop': "url('./src/assets/images/bg-intro-desktop.svg')",
+              }
         },
     },
     // eslint-disable-next-line no-undef

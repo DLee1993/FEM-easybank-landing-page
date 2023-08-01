@@ -34,12 +34,12 @@ const Header = () => {
 
                 <Burger opened={opened} onClick={toggle} className="block sm:hidden" size="md" />
 
-                <Transition transition="pop-top-right" duration={200} mounted={opened}>
+                <Transition transition="pop-top-right" duration={400} mounted={opened}>
                     {(styles) => (
                         <Paper
                             withBorder
                             className="absolute top-[5.5rem] left-0 right-0 z-0 w-[95%] mx-auto py-5 rounded overflow-hidden sm:hidden"
-                            shadow="md"
+                            shadow="xl"
                             style={styles}
                         >
                             <ul className="flex flex-col justify-center items-center gap-y-5 text-darkBlue font-medium">
