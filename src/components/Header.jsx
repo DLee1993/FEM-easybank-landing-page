@@ -34,7 +34,7 @@ const Header = () => {
 
                 <Burger opened={opened} onClick={toggle} className="block sm:hidden" size="md" />
 
-                <Transition transition="pop-top-right" duration={400} mounted={opened}>
+                <Transition transition="pop-top-right" duration={200} mounted={opened}>
                     {(styles) => (
                         <Paper
                             withBorder

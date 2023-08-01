@@ -10,6 +10,14 @@
     body {
         @apply font-publicSans;
     }
+
+    h1,
+    h2 {
+        @apply text-darkBlue;
+    }
+    section {
+        @apply sm:px-6 lg:px-10;
+    }
 }
 
 @layer components {
@@ -23,6 +31,6 @@
         @apply hover:opacity-60 transition-opacity duration-300;
     }
     .backgroundImage {
-        @apply bg-introMobile md:bg-introDesktop bg-no-repeat bg-cover md:bg-[length:700px] lg:bg-[length:900px] bg-[center_top_-15rem] sm:bg-[center_top_-17rem] min-[700px]:bg-[center_top_-19rem] min-[730px]:bg-[center_top_-21rem] md:bg-[right_-12rem_top_-7rem] lg:bg-[right_-12rem_top_-10rem];
+        @apply bg-introMobile md:bg-introDesktop bg-no-repeat bg-cover md:bg-[length:700px] lg:bg-[length:880px] bg-[center_top_-15rem] sm:bg-[center_top_-17rem] min-[700px]:bg-[center_top_-19rem] min-[730px]:bg-[center_top_-21rem] md:bg-[right_-12rem_top] lg:bg-[right_-12rem_top_-9rem];
     }
 }
