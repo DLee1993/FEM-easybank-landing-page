@@ -52,13 +52,13 @@ const MainContent = () => {
         <main className="min-h-screen bg-lightGrayBlue">
             <section
                 id="landing_section"
-                className="bg-white flex flex-col md:flex-row-reverse justify-between items-center md:max-h-[500px] pb-20 backgroundImage"
+                className="bg-lightGray flex flex-col md:flex-row-reverse justify-between items-center md:max-h-[500px] pb-20 backgroundImage"
             >
                 <figure className="w-[90%] max-w-[400px] md:max-w-[450px] lg:max-w-[500px] h-[360px] md:h-auto mx-auto sm:mx-0">
                     <img
                         src={phoneMockup}
                         alt="phone mockup"
-                        className="relative -top-28 sm:-top-36 md:-top-12 md:-right-10 lg:top-10 lg:-right-0"
+                        className="relative -top-28 sm:-top-36 md:-top-12 lg:top-10 lg:-right-0"
                     />
                 </figure>
                 <article className="text-center md:text-left max-w-[400px] md:max-w-[360px] min-[1170px]:max-w-[390px] pl-2 lg:pl-0 mx-auto sm:mx-0">
