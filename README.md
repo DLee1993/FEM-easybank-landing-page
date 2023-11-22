@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: https://www.frontendmentor.io/solutions/responsive-landing-page-built-with-mantine-ui-library-components-NOly1L_D19
--   Live Site URL: https://dlee1993.github.io/FEM-rest-api/
+-   Live Site URL: https://dlee1993.github.io/FEM-easybank-landing-page/
 
 ## My process
 
